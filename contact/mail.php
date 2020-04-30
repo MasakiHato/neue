@@ -305,7 +305,7 @@ else if($confirmDsp == 1){
 	<script src="/common/js/import.js"></script>
 </head>
 <body class="page-top page-check">
-		<div class="import-header"></div>
+        <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/header.html'); ?>
             <div class="pankuzu">
                 <img src="/img/pankuzu.png" alt="">
                 <ul>
@@ -347,8 +347,7 @@ else if($confirmDsp == 1){
 
 <!-- ▼ Footerその他コンテンツなど　※編集可 ▼-->
     </main>
-		<div class="import-footer"></div>
-</body>
+        <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/footer.html'); ?></body>
 </html>
 <?php
 /* ▲▲▲送信確認画面のレイアウト　※オリジナルのデザインも適用可能▲▲▲　*/

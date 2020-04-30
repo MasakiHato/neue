@@ -6,14 +6,14 @@
 	<meta name="description" content="広告・販売促進等、コミュニケーションツールの企画・立案 およびグラフィックデザイン制作。大阪の天満橋にあるデザイン会社です。">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="og:type" content="website">
-	<title>Access | Studio Neue Corp.</title>
+	<title>Works | Studio Neue Corp.</title>
 	<meta property="og:url" content="http://www.neue.co.jp">
-	<meta property="og:title" content="Access | Studio Neue Corp.">
+	<meta property="og:title" content="Works | Studio Neue Corp.">
 	<meta property="og:image" content="/img/og.jpg">
 	<meta property="og:description" content="株式会社スタジオノイエは、CI計画やブランド開発をはじめ、広告・宣伝・販売促進、パッケージ、POP、WEB、GUIデザインなどコミュニケーションを主とする企画・立案および制作するデザイン会社です。"> 
     <meta name="twitter:url" content="http://www.neue.co.jp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Access | Studio Neue Corp.">
+    <meta name="twitter:title" content="Works | Studio Neue Corp.">
     <meta property="twitter:image" content="/img/twittercard.jpg">
     <meta name="twitter:description" content="株式会社スタジオノイエは、CI計画やブランド開発をはじめ、広告・宣伝・販売促進、パッケージ、POP、WEB、GUIデザインなどコミュニケーションを主とする企画・立案および制作するデザイン会社です。">
     
@@ -41,45 +41,29 @@
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:100,300,400,500,700&amp;subset=japanese" rel="stylesheet">
 	<link rel="stylesheet" href="/common/css/reboot.css" type="text/css">
 	<link rel="stylesheet" href="/common/css/common.css" type="text/css">
-	<link rel="stylesheet" href="css/access.css" type="text/css">
+	<link rel="stylesheet" href="css/works.css" type="text/css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script src="js/access.js"></script>
 	<script src="/common/js/import.js"></script>
 </head>
 <body id="wrapper" class="page-top">
-		<div class="import-header"></div>
-            <div class="pankuzu">
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/header.html'); ?>
+    <div class="pankuzu">
                 <img src="/img/pankuzu.png" alt="">
                 <ul>
-                    <li>Access</li>
+                    <li>Works</li>
                 </ul>
             </div> 
 		<main>
-            <h2>Access</h2>
-            <div class="box-flex">
-                <div class="box-map">
-                    <h3 id="anc-access-osaka">Osaka</h3>
-                    <p>大阪本社</p>
-                    <div class="map" id="maps-osaka"></div>
-                    <address>
-                    &#12306;530-0043<br>
-                    大阪市北区天満2-12-13<br>
-                    TEL.06-6356-6121(代) / FAX.06-6356-5507
-                    </address>
-                </div>
-                <div class="box-map">
-                    <h3 id="anc-access-tokyo">Tokyo</h3>
-                    <p>東京支社</p>
-                    <div class="map" id="maps-tokyo"></div>
-                    <address>
-                    &#12306;103-0004<br>
-                    東京都中央区東日本橋 2-18-6 プリモKS1ビル5F<br>
-                    TEL:03-5809-3771(代) / FAX:03-5809-3441
-                    </address>
-                </div>
+            <h2>Works</h2>
+            <div class="box-grid">
+                <div><a href="/works/corporate-identitiy/"><p>Corporate Identitiy</p></a></div>
+                <div><a href="#"><p>Total Advertising</p></a></div>
+                <div><a href="#"><p>Sales Promotion</p></a></div>
+                <div><a href="#"><p>Graphic Design</p></a></div>
+                <div><a href="#"><p>Package Design</p></a></div>
+                <div><a href="#"><p>Web Design</p></a></div>
             </div>
         </main>
-		<div class="import-footer"></div>
-<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyC3AAZSJ1iDljadk1Cug999YY14TSEnkGM&callback=initMap" async></script>
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/footer.html'); ?>
 </body>
 </html>

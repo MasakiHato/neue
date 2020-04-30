@@ -46,7 +46,7 @@
 	<script src="/common/js/import.js"></script>
 </head>
 <body id="wrapper" class="page-top">
-		<div class="import-header"></div>
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/header.html'); ?>
             <div class="pankuzu">
                 <img src="/img/pankuzu.png" alt="">
                 <ul>
@@ -113,7 +113,7 @@
                 </form>
             </section>
     </main>
-    <div class="import-footer"></div>
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/footer.html'); ?>
     <script>
         $(document).ready(function(){
           $('.checkbox-custum').click(function () {
