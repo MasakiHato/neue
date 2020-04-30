@@ -72,7 +72,7 @@ h2 {
 
 .box-pagehead {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .box-pagehead .first-child::before {
