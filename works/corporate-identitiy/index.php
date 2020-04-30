@@ -40,6 +40,7 @@
 	<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:100,300,400,500,700&amp;subset=japanese" rel="stylesheet">	<link rel="stylesheet" href="/common/css/reboot.css" type="text/css">
 	<link rel="stylesheet" href="/common/css/common.css" type="text/css">
+	<link rel="stylesheet" href="/works/css/works.css" type="text/css">
 	<link rel="stylesheet" href="/works/css/works-category.css" type="text/css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script src="/common/js/import.js"></script>
@@ -49,7 +50,7 @@
             <div class="pankuzu">
                 <img src="/img/pankuzu.png" alt="">
                 <ul>
-                    <li><a href="../index.html">Works</a></li>
+                    <li><a href="../">Works</a></li>
                     <li>Corporate&nbsp;Identitiy</li>
                 </ul>
             </div> 
