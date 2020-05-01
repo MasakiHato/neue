@@ -11,7 +11,7 @@ body {
 }
 #neueLogo {
     width: 400px;
-    margin: 8% 0 0 2%;
+    margin: 8% 0 3em 2%;
 }
 h1 {
     display: none;
@@ -49,4 +49,18 @@ h1 {
 }
 #txt-copyright.function {
     color: #ABCEE8;
+}
+
+.swiper-wrapper {
+	transition-timing-function: linear;
+}
+.swiper-slide {
+	height: 8px;
+	transition: 0.5s ease-in-out;
+}
+.swiper-slide:hover {
+	height: 500px;
+}
+.swiper-slide img {
+	width: 100%;
 }
