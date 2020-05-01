@@ -12,6 +12,7 @@ html {
 body {
   background: #fff;
   margin-bottom: 10%;
+  display: none;
 }
 h2 {
   font-size: 3.5em;
@@ -152,7 +153,7 @@ nav li a:hover:before {
   font-size: 80%;
 }
 .pankuzu li::after {
-  content: "―";
+  content: ">";
   margin: 5px;
 }
 .pankuzu li:last-child::after {

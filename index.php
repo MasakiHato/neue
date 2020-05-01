@@ -25,9 +25,9 @@
 <!-- Chrome for Android -->
 <link rel="manifest" href="/img/manifest.json">
 <link rel="icon" sizes="192x192" href="/img/favicon-192.png">
+
 <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css">
 <link rel="stylesheet" href="common/css/reboot.css" type="text/css">
-<link rel="stylesheet" href="/common/css/swiper.min.css" type="text/css">
 <link rel="stylesheet" href="common/css/common.css" type="text/css">
 <link rel="stylesheet" href="css/top.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
@@ -38,42 +38,19 @@
 <div id="page-wraper">
     <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/header.html'); ?>
     <div id="neueLogo"></div>
-	<!-- Swiper -->
-	<div class="swiper-container">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="/img/logix.png" alt=""></div>
-			<div class="swiper-slide"><img src="/img/logix.png" alt=""></div>
-			<div class="swiper-slide"><img src="/img/logix.png" alt=""></div>
-			<div class="swiper-slide"><img src="/img/logix.png" alt=""></div>
-			<div class="swiper-slide"><img src="/img/logix.png" alt=""></div>
-		</div>
-	</div>
+    
     <p class="txt-copy" id="txt-copy">株式会社スタジオノイエは、CI計画やブランド開発をはじめ、広告・宣伝・販売促進、
         パッケージ、POP、WEB、GUIデザインなどコミュニケーションを主とする企画・立案
         および制作するデザイン会社です。</p>
     <?php include( $_SERVER['DOCUMENT_ROOT'] . '/common/include/footer.html'); ?>
 </div>
 </body>
-<script src="/common/js/swiper.min.js"></script> 
 <script>
-	var swiper = new Swiper('.swiper-container', {
-	slidesPerView: 3,
-	autoplay: {delay: 0},
-	speed: 5000,
-	loop: true,
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-    }
-  });
     var animationTivel = lottie.loadAnimation({
     container: document.getElementById('neueLogo'),
     renderer: 'svg',
     autoplay: true,
     path: 'js/neueLogoAnimation.json'
     });
-</script>
-<script>
-
 </script>
 </html>
